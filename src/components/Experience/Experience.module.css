@@ -1,0 +1,119 @@
+@import '../../vars.css';
+
+* {
+    font-family: var(--font-roboto);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+.experiencescontainer {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skillscontainer {
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    row-gap: 1rem;
+}
+
+.skillsitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    height: 10rem;
+}
+
+.skilltitle {
+    font-size: 1.2rem;
+}
+
+.skilllogo {
+    height: 8rem;
+    width: 8rem;
+    background-color: var(--color-secondary);
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 5rem;
+    }
+}
+
+.positionscontainer {
+    min-width: 52%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.positionitem {
+    display: flex;
+    padding: 1rem 1.5rem;
+    column-gap: 1rem;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(25,55,92,0.8) 10%, rgba(255,255,255,0) 90%);
+    border-radius: 1rem;
+}
+
+.positionimage {
+    height: 4rem;
+    border-radius: 0.2rem;
+}
+
+.positiontext {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    
+    p {
+        font-family: var(--font-roboto);
+        font-size: 0.8rem;
+        font-weight: 300;
+        opacity: 0.7;
+    }
+
+    ul {
+        font-size: 1rem;
+        font-weight: 400;
+        padding-left: 2rem;
+        margin-top: 0.3rem;
+        letter-spacing: 1px;
+    
+    }
+}
+
+
+@media screen and (max-width: 830px) {
+    .experiencescontainer {
+        flex-direction: column;
+    }
+
+    .skillscontainer {
+        width: 80%;
+        justify-content: space-around;
+        column-gap: 1.5rem;
+    }
+
+    .positionscontainer {
+        width: 90%;
+        row-gap: 1rem;
+    }
+}

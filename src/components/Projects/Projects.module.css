@@ -1,0 +1,13 @@
+@import '../../vars.css';
+
+.projectscontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 830px) {
+    .projectscontainer {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Lorem ipsum",
+        "imageSrc": "projects/project.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "skills": ["Git", "Kubernetes", "Docker", "Grafana"],
+        "source": "https://github.com/Houcem21",
+        "demo": "https://github.com/Houcem21"
+    },
+    {
+        "title": "Lorem ipsum",
+        "imageSrc": "projects/project.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "skills": ["Java", "Symfony", "MySQL", "PHP"],
+        "source": "https://github.com/Houcem21",
+        "demo": ""
+    },
+    {
+        "title": "Lorem ipsum",
+        "imageSrc": "projects/project.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "skills": ["HTML", "CSS", "JS", "PHP"],
+        "source": "https://github.com/Houcem21",
+        "demo": ""
+    }
+]
